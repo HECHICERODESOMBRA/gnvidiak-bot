@@ -1,13 +1,13 @@
 {
   "name": "gnvidiak-bot",
   "version": "1.0.0",
+  "description": "Bot de registro automático GNVIDIAK",
   "main": "registro.js",
   "scripts": {
-    "start": "node registro.js",
-    "postinstall": "npx playwright install chromium"
+    "start": "node registro.js"
   },
   "dependencies": {
-    "playwright": "^1.32.0",
-    "@faker-js/faker": "^8.0.0"
+    "playwright": "^1.44.0",
+    "faker": "^5.5.3"
   }
 }
